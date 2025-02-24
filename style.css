@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', Courier, monospace;
+}
+.header{
+    background: #1f2937;
+}
+.hText{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.subHead{
+
+}
+
+.logotext{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.sign-but{
+    background: #3882f6;
+}
+.infoCont{
+
+}
+
+.infoHead{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.list{
+
+}
+
+.info{
+
+}
+
+.infotext{
+
+}
+
+.qoute{
+    background: #e5e7eb;
+}
+
+.qText{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.qAuthor{
+
+}
+
+.sign-up{
+
+}
+
+.sTitle{
+
+}
+
+.sText{
+
+}
+
+.signup{
+
+}
+
+.footer{
+    background: #1f2937;
+}
+
+.footer-text{
+
+}
+
+
