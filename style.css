@@ -1,6 +1,11 @@
 body{
     font-family: 'Roboto', Courier, monospace;
 }
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
 .header{
     background: #1f2937;
 }
@@ -23,15 +28,21 @@ body{
 }
 .sign-but{
     background: #3882f6;
+    border-radius: 8px;
 }
 .infoCont{
-
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 64px;
 }
 
 .infoHead{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 32px;
+    text-align: center;
 }
 
 .list{
@@ -39,6 +50,7 @@ body{
 }
 
 .info{
+    max-width: 200px;
 
 }
 
@@ -72,11 +84,15 @@ body{
 }
 
 .signup{
-
+    background: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border-color: white;
 }
 
 .footer{
     background: #1f2937;
+    color: white;
 }
 
 .footer-text{
