@@ -1,34 +1,76 @@
 body{
-    font-family: 'Roboto', Courier, monospace;
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
 img{
     width: 150px;
     height: 150px;
     border-radius: 8px;
 }
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.logo{
+    width: auto;
+    height: 250px;
+    max-width: 40%;
+}
 .header{
+    display: flex;
     background: #1f2937;
+    padding: 20px 150px 80px;
+    flex-direction: column;
+    gap: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .hText{
-    font-size: 48px;
+    font-size: 24px;
     color: #f9faf8;
-    font-weight: 900;
 }
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
+    list-style: none;
 }
 .subHead{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub{
+    flex-direction: column;
+    display: flex;
+    max-width: 50%;
 }
 
 .logotext{
-    font-size: 24px;
+    font-size: 48px;
     color: #f9faf8;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
 }
 .sign-but{
+    max-width: 100px;
     background: #3882f6;
-    border-radius: 8px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
 }
 .infoCont{
     display: flex;
@@ -44,43 +86,48 @@ img{
     margin: 32px;
     text-align: center;
 }
-
-.list{
-
-}
-
 .info{
     max-width: 200px;
 
 }
-
-.infotext{
-
-}
-
 .qoute{
     background: #e5e7eb;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .qText{
+    font-weight: 300;
+    font-style: italic;
     font-size: 36px;
     color: #1f2937;
 }
 
 .qAuthor{
-
+    font-weight: 800;
 }
 
 .sign-up{
+    display: flex;
+    margin: 100px;
+    background: #3882f6;
+    padding: 30px 50px;
+    border-radius: 8px;
+    justify-content: space-between;
 
 }
 
 .sTitle{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight:800;
 
 }
 
 .sText{
-
+    color: #f9faf8;
+    font-size: 15px;
 }
 
 .signup{
@@ -93,10 +140,9 @@ img{
 .footer{
     background: #1f2937;
     color: white;
-}
-
-.footer-text{
-
+    display: flex;
+    justify-content: center;
+    padding: 16px;
 }
 
 
